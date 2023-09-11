@@ -1,0 +1,103 @@
+-- create table if not exists users
+-- (
+--     id
+--     integer
+--     generated
+--     by
+--     default as
+--     identity
+--     primary
+--     key,
+--     username
+--     varchar
+-- (
+--     255
+-- ) not null,
+--     email varchar
+-- (
+--     255
+-- ) not null,
+--     password varchar
+-- (
+--     20
+-- ) not null
+--     );
+-- create table if not exists download
+-- (
+--     id
+--     integer
+--     generated
+--     by
+--     default as
+--     identity
+--     primary
+--     key,
+--     link
+--     varchar
+-- (
+--     255
+-- ) not null
+--     );
+-- create table if not exists video
+-- (
+--     id
+--     integer
+--     generated
+--     by
+--     default as
+--     identity
+--     primary
+--     key,
+--     picture
+--     varchar
+-- (
+--     255
+-- ) not null,
+--     title varchar
+-- (
+--     255
+-- ) not null,
+--     link varchar
+-- (
+--     255
+-- ) not null,
+--     tipo varchar
+-- (
+--     255
+-- ) not null,
+--     ano varchar
+-- (
+--     255
+-- ) not null,
+--     pg varchar
+-- (
+--     255
+-- ) not null,
+--     duration varchar
+-- (
+--     255
+-- ) not null,
+--     synopse varchar
+-- (
+--     255
+-- ) not null
+--     );
+-- create table if not exists bookmark
+-- (
+--     id
+--     integer
+--     generated
+--     by
+--     default as
+--     identity
+--     primary
+--     key,
+--     userid
+--     integer
+--     not
+--     null,
+--     videoid
+--     integer
+--     not
+--     null
+-- );
